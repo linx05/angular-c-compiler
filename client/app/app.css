@@ -1,0 +1,32 @@
+body {
+    overflow: auto;
+}
+
+.centered {
+    margin: auto;
+    position: absolute;
+    /*top: 0; */
+    left: 0;
+    /*bottom: 0; */
+    right: 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+#login {
+    top: 20% !important;
+}
+
+/* Loading bar */
+#loading-bar .bar {
+    background: GhostWhite !important;
+    height: 4px !important;
+}

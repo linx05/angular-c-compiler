@@ -1,0 +1,10 @@
+<div>
+    <h1>{{ $ctrl.name }}</h1>
+
+    <div class="form-group">
+        <label for="comment">Editor:</label>
+        <textarea class="form-control" rows="5" id="comment" ng-model="$ctrl.text"></textarea>
+
+        <button type="button" class="btn btn-primary" ng-click="$ctrl.analize()">Analizar</button>
+    </div>
+</div>
